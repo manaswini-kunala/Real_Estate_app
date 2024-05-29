@@ -19,7 +19,7 @@ class ContactCreateView(APIView):
                 + data['email']
                 + '\n\nMessage:\n'
                 + data['message'],
-                '[YOUR SENDER EMAIL FROM YOUR SETTINGS]',
+                '[manaswinikunala@gmail.com]',
                 ['[EMAIL YOU ARE SENDING TO]'],
                 fail_silently=False
             )
