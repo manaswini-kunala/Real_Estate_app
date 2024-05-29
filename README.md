@@ -1,14 +1,11 @@
-# Realest Estate
-This is a large project that shows how to implement a real estate application with a variety of different features. You see an approach to implementing authentication using JSON Web Tokens with the Django Rest Framework Simple JWT package. You see how to implement a contact form, how to implement pagination, how to upload photos on the Django Admin, how to customize the Django Admin, and more.
+# Real Estate App
 
-In order to test out this project, follow these steps:
-- clone the repository
-- run: npm install, this will install the required frontend packages
-- run: npm run build, this will make the production react build folder
-- run: python3 -m venv venv
-- then activate the virtual environment
-- run: pip install -r requirements.txt
-- in realest_estate/settings.py, under DATABASES, set the PASSWORD field to your database password
-- in realest_estate/settings.py, under EMAIL_HOST_USER, set your email that you are using
-- in realest_estate/settings.py, under EMAIL_HOST_PASSWORD, set your app password you are using
-- in contacts/views.py, under the send_mail function, input the email you are using
+This comprehensive project demonstrates how to build a real estate application with numerous features. Key aspects include:
+
+- **Authentication**: Implementing authentication using JSON Web Tokens (JWT) with the Django Rest Framework Simple JWT package.
+- **Contact Form**: Setting up a functional contact form.
+- **Pagination**: Implementing pagination for efficient data handling.
+- **Photo Uploads**: Enabling photo uploads via the Django Admin interface.
+- **Admin Customization**: Customizing the Django Admin interface for better usability.
+
+This project serves as a detailed guide for creating a fully-featured real estate application, covering various aspects from backend authentication to admin interface enhancements.
